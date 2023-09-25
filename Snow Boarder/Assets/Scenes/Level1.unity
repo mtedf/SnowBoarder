@@ -880,6 +880,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1e136f36c4a401458896cfc465602c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fltLoadDelay: 1
 --- !u!1 &516388995
 GameObject:
   m_ObjectHideFlags: 0
@@ -1619,6 +1620,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 856a2d7a5ea29e44da2fd0f932ebb1e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fltLoadDelay: 0.5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
