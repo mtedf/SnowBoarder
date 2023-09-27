@@ -9175,6 +9175,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fltTorqueAmount: 10
+  fltBoostSpeed: 30
+  fltBaseSpeed: 20
 --- !u!114 &1738427352
 MonoBehaviour:
   m_ObjectHideFlags: 0
