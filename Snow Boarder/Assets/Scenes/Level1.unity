@@ -815,7 +815,7 @@ Transform:
   m_GameObject: {fileID: 442441777}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.49, y: 1.14, z: -5.807607}
+  m_LocalPosition: {x: 65.88, y: -11.13, z: -5.807607}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -882,6 +882,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fltLoadDelay: 1
+  finishEffect: {fileID: 2061259229}
 --- !u!1 &516388995
 GameObject:
   m_ObjectHideFlags: 0
@@ -1215,7 +1216,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
@@ -1271,7 +1272,7 @@ ParticleSystem:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  moveWithTransform: 0
+  moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
   randomSeed: 0
@@ -6451,6 +6452,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fltLoadDelay: 0.5
+  crashEffect: {fileID: 892827062}
 --- !u!1 &2061259226
 GameObject:
   m_ObjectHideFlags: 0
@@ -6525,7 +6527,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 20
   m_RenderMode: 0
   m_MeshDistribution: 0
   m_SortMode: 0
@@ -6573,7 +6575,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
